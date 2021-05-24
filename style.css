@@ -209,6 +209,9 @@ main {
   }
 }
 
+section{
+  transition:0.4s
+}
 #state {
   display: grid;
   position: relative;
@@ -232,7 +235,7 @@ main {
   max-width: 340px;
 }
 #state article {
-  width: 400px;
+  max-width: 400px;
 }
 #state article h1 {
   margin-bottom: 30px;
@@ -271,7 +274,7 @@ main {
 }
 
 #laptop article {
-  width: 400px;
+  max-width: 400px;
 }
 
 #laptop article h1 {
